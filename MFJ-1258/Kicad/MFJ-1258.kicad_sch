@@ -1044,7 +1044,7 @@
     (property "Reference" "RV1" (at 162.56 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100KΩ (104)" (at 162.56 91.44 90)
+    (property "Value" "100Ω (101)" (at 162.56 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (at 162.56 87.63 0)
