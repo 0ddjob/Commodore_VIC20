@@ -1,5 +1,7 @@
 # MFJ-1258 Capacitance Meter for Commodore VIC-20
 
+![MFJ-1258](/photos/2022-12-10 18.05.11.jpg)
+
 This piece of hardware was released in 1984 by MFJ Enterprises.<br>
 
 There is obviously no good reason to boot up your VIC-20, load the program and then measure a
