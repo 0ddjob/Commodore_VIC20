@@ -1,4 +1,6 @@
-# MFJ-1258 Capacitance Meter for Commodore VIC-20
+# MFJ-1258 Capacitance Meter for Commodore VIC-20 (and C64)
+
+My [YouTube video](https://youtu.be/Mjrz-HgAQmU?si=OyE82Guu7m2RMGE9).<br>
 
 ![MFJ-1258](Photos/MFJ-1258_PCB1.jpg)
 
