@@ -10,3 +10,6 @@ R6: 5.6MΩ (GREEN/BLUE/GREEN)
 R7: 3.9MΩ (ORANGE/WHITE/GREEN)
 R8: 330Ω (ORANGE/ORANGE/BROWN)
 RV1, RV2: 100KΩ TRIMPOT (104)
+J1: User Port (2x12 pin, 3.96mm pitch)
+J2, J3: Screw terminal, binding post
+
