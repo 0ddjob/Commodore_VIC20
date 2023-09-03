@@ -13,7 +13,7 @@ It is here mainly for education, showing how to interface software and hardware 
 
 I have re-drawn the schematic from the physical board - it is currently UNTESTED!<br>
 
-![New MFJ-1258](Redrawn MFJ-1258 Board.png)
+![New MFJ-1258](Redrawn_MFJ-1258_Board.png)
 
 If I do get the board made and it works, I will update this README.<br>
 
