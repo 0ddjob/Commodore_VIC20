@@ -4,3 +4,5 @@ Three versions of K7NH's (Neil Hill) satellite tracking program for the Commodor
 [3] VIKTRAK+ 1.3 (3KByte expanded VIC)<br>
 <br>
 Photos of the AUTOTRAK hardware unit that connects to the VIC-20's expansion port, for controlling the orientation of an antenna.<br>
+
+![World Radio, Aug 1987](WorldRadio_Aug_1987.png)
