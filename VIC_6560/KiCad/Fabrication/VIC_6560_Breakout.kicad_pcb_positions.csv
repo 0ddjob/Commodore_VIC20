@@ -1,0 +1,4 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+119.38,-63.5,0.0,top,J1,,,DIP-40_W15.24mm,MOTHERBOARD_VIC_SOCKET,tht
+130.384,-59.0,-90.0,top,J2,,,PinHeader_1x05_P2.54mm_Vertical,BREAKOUT_PINS,tht
+116.84,-63.5,0.0,top,U1,,,DIP-40_W15.24mm,6560/6561,tht
