@@ -1809,7 +1809,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "AUDIO"
+	(gr_text "LUMA"
 		(at 62.985749 45.795378 90)
 		(layer "F.SilkS")
 		(uuid "123af3cb-46db-461b-ac76-ec0d1a156249")
