@@ -5025,6 +5025,19 @@
 			)
 		)
 	)
+	(gr_text "VA10\nVA11\nVA12\nVA13\nBLK0\nΦ2"
+		(at 152.68 96.862974 0)
+		(layer "F.SilkS")
+		(uuid "ff6d3fcb-ab22-43a4-bfd8-37928e96815b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "Brett Hallen, Apr 2025\nPort Macquarie, Australia\nwww.youtube.com/@Brfff"
 		(at 214.48 68.52 0)
 		(layer "B.SilkS")
