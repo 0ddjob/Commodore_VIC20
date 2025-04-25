@@ -20,3 +20,6 @@ The first step is to create this breakout board to isolate the A/V signals from 
 I hope that it will allow me to see what signals the 6560 outputs natively, then start to build on that.<br>
 
 BTW, yes I know there are boards out there that already do this.  I've not had much luck with the free or paid-for boards, so I want to ... TRY TO ... understand it myself.  Let's see ...
+
+## [Internal 8KB RAM Expansion](/Internal_8KB/)
+My attempt to replace the VIC's built in 5KB of RAM (ten 2114 chips) with a single 8KB chip.
