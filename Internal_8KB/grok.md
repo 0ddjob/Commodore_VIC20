@@ -1,3 +1,5 @@
+# Query 1 - Chip Select Logic
+
 https://grok.com/share/bGVnYWN5_e7b297fb-9c7c-4d09-af5e-45be8e58d914
 
 To design the chip select logic for your 8KB RAM expansion using a 6264 RAM chip for the Commodore VIC-20, we need to create a circuit that activates the chip select (CS, active low) based on the given conditions for VA10, VA11, VA12, VA13, BLK0, and the switch state. Below is a step-by-step breakdown of the logic and a suggested implementation.
@@ -213,6 +215,7 @@ Implement this using:
 
 Alternatively, use NAND gates for a compact implementation. The circuit maps 8KB ($0000-$1FFF) when the switch is ON, and 5KB ($0000-$03FF and $1000-$1FFF) when the switch is OFF, assuming VA13 = 1 and BLK0 = 0.
 
+# Query 2 - Using a GAL
 
 https://grok.com/share/bGVnYWN5_1dfcf823-6794-47d5-9455-8b4549aa9b95
 
