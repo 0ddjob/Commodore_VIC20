@@ -429,7 +429,7 @@ Use the following pinout:
 
 Program the GAL using WinCUPL with the provided CUPL code and a GAL programmer. The GAL16V8 will produce the active-low CS signal for the 6264 SRAM, mapping 8KB ($0000-$1FFF) when SW = 1, and 5KB ($0000-$03FF and $1000-$1FFF) when SW = 0, assuming VA13 = 1 and BLK0 = 0.
 
-
+# Query 3 - Output Enable for the 6264
 
 https://grok.com/share/bGVnYWN5_fda752f1-8676-4dd1-bb6c-ef6786c6e6c4
 
@@ -546,4 +546,5 @@ If you prefer to integrate OE into the GAL16V8 to reduce components:
 
 ### Final Answer
 Connect the 6264’s **OE pin (pin 22)** to the output of a **2-input NAND gate** (e.g., 74LS00) with inputs **R/W** and **Phi2** from the VIC-20. This produces `OE = R/W NAND Phi2`, ensuring OE is low only during read cycles when Phi2 is high. Alternatively, generate OE in the GAL16V8 by adding R/W and Phi2 as inputs and defining `OE = !RW # !Phi2` in the CUPL code, outputting OE on pin 16. Ensure WE is driven by `NOT(R/W)` or `R/W NAND Phi2` to prevent output during write cycles.
+
 
