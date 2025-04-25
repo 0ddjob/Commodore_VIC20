@@ -23,3 +23,6 @@ BTW, yes I know there are boards out there that already do this.  I've not had m
 
 ## [Internal 8KB RAM Expansion](/Internal_8KB/)
 My attempt to replace the VIC's built in 5KB of RAM (ten 2114 chips) with a single 8KB chip.
+
+![3D view of RAM upgrade board](/Internal_8KB/Images/VIC-20_BLK0_RAM_Expansion.png)
+
