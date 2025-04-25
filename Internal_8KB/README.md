@@ -15,5 +15,7 @@ The board itself is quite simple, using just the 6264 RAM chip and a GAL chip fo
 
 Some wires need to be connected from the board to a few other places on the VIC's board to pick up required signals.<br>
 
+There is a switch to allow the additional 3KB RAM expansion to be disabled without having to open up the VIC.  This allows the VIC to return to its original "unexpanded VIC" state in case of software issues.<br>
+
 ## Status
 25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication
