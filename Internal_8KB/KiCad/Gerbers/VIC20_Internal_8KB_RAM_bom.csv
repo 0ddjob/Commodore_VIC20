@@ -1,0 +1,9 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+"C1, C2",2,100nF,C_Disc_D3.0mm_W2.0mm_P2.50mm,,,,tht,Unpolarized capacitor
+J1,1,UD4,DIP-18_W7.62mm,,,,tht,"Generic connector, double row, 02x09, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2,1,UE4,DIP-18_W7.62mm,,,,tht,"Generic connector, double row, 02x09, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J3,1,SW,PinHeader_1x02_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J4,1,Signals,PinHeader_1x06_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+R1,1,10KΩ,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor
+U1,1,6264,DIP-28_W15.24mm_Socket,,,,tht,"Not in Production, 8Kx8 bit Static RAM, 70/85/100/120/150ns, DIP-28"
+U2,1,GAL16V8,DIP-20_W7.62mm_Socket,,,,tht,"Programmable Logic Array, DIP-20/SOIC-20/PLCC-20"

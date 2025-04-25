@@ -1,0 +1,28 @@
+Name    VIC20_RAM_CS;
+PartNo  GAL16V8;
+Date    04/25/2025;
+Revision 01;
+Designer YourName;
+Company  None;
+Assembly None;
+Location None;
+Device   g16v8;
+
+/* Inputs */
+Pin 2 = VA10;
+Pin 3 = VA11;
+Pin 4 = VA12;
+Pin 5 = VA13;
+Pin 6 = BLK0; 
+Pin 7 = RW;    /* R/W input */
+Pin 8 = SW;    /* Enable 3KB expansion or not */
+Pin 9 = Phi2;  /* Phi2 input */
+
+/* Outputs */
+Pin 15 = CS;  /* active low, CS1 */
+Pin 16 = !CS; /* active high, CS2 */
+Pin 17 = OE   /* output enable */
+
+/* Logic Equations */
+CS = !VA13 # BLK0 # (!SW & !VA12 & VA10) # (!SW & !VA12 & VA11);
+OE = !RW # !Phi2;  /* OE = NOT(R/W AND Phi2) */
