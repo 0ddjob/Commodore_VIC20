@@ -2057,120 +2057,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized"
+		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2189,7 +2076,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized"
+			(property "Value" "C"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -2216,7 +2103,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2234,7 +2121,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2243,12 +2130,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -2257,41 +2145,18 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "C_Polarized_1_1"
+			(symbol "C_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2725,15 +2590,6 @@
 		(uuid "6a05d98f-5d6c-42c5-aed7-8ee6ddd5afe8")
 	)
 	(bus_entry
-		(at 170.18 35.56)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7276764e-113d-473e-9940-4c774137ac60")
-	)
-	(bus_entry
 		(at 22.86 78.74)
 		(size 2.54 2.54)
 		(stroke
@@ -3087,6 +2943,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 85.09) (xy 168.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1547c5f0-9fda-4a13-b046-cc4d0109660e")
+	)
+	(wire
+		(pts
 			(xy 73.66 48.26) (xy 83.82 48.26)
 		)
 		(stroke
@@ -3127,7 +2993,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 35.56) (xy 170.18 38.1)
+			(xy 170.18 20.32) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4035,16 +3901,6 @@
 		)
 		(uuid "cf67fc1f-18cf-44da-9509-9dc7e5e245c3")
 	)
-	(wire
-		(pts
-			(xy 172.72 38.1) (xy 179.07 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38d9eab-b80c-471e-8d3f-cf00b15f57fe")
-	)
 	(bus
 		(pts
 			(xy 71.12 39.37) (xy 71.12 38.1)
@@ -4137,6 +3993,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 85.09) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbc7f43-9f53-49e0-a902-9b86a39b9787")
+	)
+	(wire
+		(pts
 			(xy 158.75 35.56) (xy 167.64 35.56)
 		)
 		(stroke
@@ -4154,16 +4020,6 @@
 			(type default)
 		)
 		(uuid "edf84fc5-ce6d-48ed-bdc5-ff6792b4f8d8")
-	)
-	(bus
-		(pts
-			(xy 170.18 20.32) (xy 170.18 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f133dffa-1069-43c3-b828-3c0dcac5de6f")
 	)
 	(wire
 		(pts
@@ -4584,16 +4440,6 @@
 			(justify left bottom)
 		)
 		(uuid "b461be64-eea1-4148-970f-350265b67251")
-	)
-	(label "PHI2"
-		(at 173.99 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8a04ed5-cb10-4f05-b7df-431cbf358932")
 	)
 	(label "A3"
 		(at 77.47 43.18 0)
@@ -5365,7 +5211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -5522,6 +5368,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 172.72 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25821499-d598-45c1-9374-95270d185859")
+		(property "Reference" "C2"
+			(at 175.26 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 175.26 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 176.53 91.7448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51c9efbb-9a00-49a6-881d-6b50f2357d69")
+		)
+		(pin "2"
+			(uuid "231f554f-4815-473f-80f4-df60d2b3d8f4")
+		)
+		(instances
+			(project "6502-to-65C02"
+				(path "/c02dea0b-833f-47f5-b3c3-0cc0724c5da8"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 59.69 90)
 		(unit 1)
@@ -5546,7 +5459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 113.03 61.468 90)
 			(effects
 				(font
@@ -5616,7 +5529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -5773,74 +5686,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 184.15 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71314375-de92-43f0-b3dc-02efc1c4566c")
-		(property "Reference" "J1"
-			(at 186.69 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BLK0_EXP"
-			(at 186.69 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 184.15 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11086367-e0dd-401c-8916-0fc261cc4ce5")
-		)
-		(instances
-			(project ""
-				(path "/c02dea0b-833f-47f5-b3c3-0cc0724c5da8"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 172.72 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5848,24 +5694,24 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "929f1fa1-2802-489f-9466-0eeaf396fb3b")
+		(uuid "6eaaa266-b64e-4bbd-abe7-1abe6b0ac85a")
 		(property "Reference" "C1"
-			(at 171.831 77.47 90)
+			(at 172.72 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10µF"
-			(at 171.831 80.01 90)
+		(property "Value" "100nF"
+			(at 172.72 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 176.53 84.1248 0)
 			(effects
 				(font
@@ -5883,7 +5729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -5892,11 +5738,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "fd2c8817-2c58-4042-b6bf-ff94adf892a9")
-		)
 		(pin "1"
-			(uuid "0e545c2b-3bc2-4442-919d-45082305356a")
+			(uuid "e25df7d9-c6d8-4da6-b497-8bfa0de08862")
+		)
+		(pin "2"
+			(uuid "b7f19657-c8c9-4476-b0ef-ab7b10538dfb")
 		)
 		(instances
 			(project ""
