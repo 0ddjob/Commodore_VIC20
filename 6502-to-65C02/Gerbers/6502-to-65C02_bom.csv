@@ -1,0 +1,6 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+"C1, C2",2,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,,,smt,Unpolarized capacitor
+R1,1,3.3KΩ,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,,,smt,Resistor
+UE10,1,6502 (SOCKET),DIP-40_W15.24mm,,,,tht,
+UE101,1,65C02S,DIP-40_W15.24mm_Socket,,,,tht,
+UE102,1,74HCT245,TSSOP-20_4.4x6.5mm_P0.65mm,,,,smt,"Octal BUS Transceivers, 3-State outputs"

@@ -2321,7 +2321,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Notes:\nPin 1 (VPB, Vector Pull) should disconnected\nPin 2 (RDY, Ready) should be pulled up to +5V with 3.3KΩ resistor\nPin 5 (MLB, Memory Lock) is N/C on 6502 so leave disconnected\nPin 36 (BE, Bus Enable) should be tied to GND (N/C on 6502)\n"
+	(text_box "Notes:\nPin 1 (VPB, Vector Pull) should disconnected\nPin 2 (RDY, Ready) should be pulled up to +5V with 3.3KΩ resistor\nPin 5 (MLB, Memory Lock) should be disconnected (N/C on 6502)\nPin 36 (BE, Bus Enable) should be tied to +5V (N/C on 6502)\n"
 		(exclude_from_sim no)
 		(at 13.97 118.11 0)
 		(size 72.39 15.24)
