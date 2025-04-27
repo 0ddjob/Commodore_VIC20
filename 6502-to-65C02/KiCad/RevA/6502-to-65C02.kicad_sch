@@ -5,7 +5,7 @@
 	(uuid "c02dea0b-833f-47f5-b3c3-0cc0724c5da8")
 	(paper "A5")
 	(title_block
-		(title "6502-to-65C02 for VIC-20")
+		(title "6502-to-W65C02S for VIC-20")
 		(date "26-Apr-2025")
 		(rev "A")
 		(company "Brett Hallen")
@@ -2321,7 +2321,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Notes:\nPin 1 (VPB, Vector Pull) should disconnected\nPin 2 (RDY, Ready) should be pulled up to +5V with 3.3KΩ resistor\nPin 5 (MLB, Memory Lock) should be disconnected (N/C on 6502)\nPin 36 (BE, Bus Enable) should be tied to +5V (N/C on 6502)\n"
+	(text_box "Notes:\nPin 1 (VPB, Vector Pull) should disconnected\nPin 2 (RDY, Ready) should be pulled up to +5V with 3.3KΩ resistor\nPin 5 (MLB, Memory Lock) should be disconnected (N/C on 6502)\nPin 36 (BE, Bus Enable) should be tied to +5V (N/C on 6502)\nData bus needs a 74HCT245 transceiver for reliable operation\n"
 		(exclude_from_sim no)
 		(at 13.97 118.11 0)
 		(size 72.39 15.24)
@@ -5202,7 +5202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "65C02S"
+		(property "Value" "W65C02S"
 			(at 96.1233 30.48 0)
 			(effects
 				(font

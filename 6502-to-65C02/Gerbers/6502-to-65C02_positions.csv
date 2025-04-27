@@ -1,7 +1,7 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
-146.0,-71.5675,-90.0,top,C1,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF,smt
-128.2766,-76.1887,90.0,top,C2,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF,smt
-159.4025,-71.0,180.0,top,R1,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,3.3KΩ,smt
-163.0,-68.76,-90.0,top,UE10,,,DIP-40_W15.24mm,6502 (SOCKET),tht
-163.08,-65.0,-90.0,top,UE101,,,DIP-40_W15.24mm_Socket,65C02S,tht
-123.925,-74.155,-90.0,top,UE102,,,TSSOP-20_4.4x6.5mm_P0.65mm,74HCT245,smt
+98.8417,-60.1148,-90.0,top,C1,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF,smt
+81.1183,-64.736,90.0,top,C2,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF,smt
+112.2442,-59.5473,180.0,top,R1,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,3.3KΩ,smt
+115.8417,-57.3073,-90.0,top,UE10,,,DIP-40_W15.24mm,6502 (SOCKET),tht
+115.9217,-53.5473,-90.0,top,UE101,,,DIP-40_W15.24mm_Socket,65C02S,tht
+76.7667,-62.7023,-90.0,top,UE102,,,TSSOP-20_4.4x6.5mm_P0.65mm,74HCT245,smt
