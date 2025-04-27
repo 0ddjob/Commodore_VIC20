@@ -6,6 +6,9 @@ My attempt to create a simple internal RAM upgrade board for the VIC-20.
 - Upgrade the internal RAM from 5KB to 8KB, filling BLK0,
 - Use as a learning experience to understand how the VIC's memory works and using a GAL.
 
+## YouTube Video
+[Simple KiCad For Simple Vintage Computer Hobbyists: Part 5 (VIC-20 RAM Expansion)](https://youtu.be/WQpgBGNAkP0)
+
 ## Design
 This is the layout of the VIC's BLK0 (first 8KB chunk of memory):
 ```

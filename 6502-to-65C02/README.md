@@ -1,6 +1,9 @@
 # 6502-to-W65C02S Daughterboard
 My attempt to create a daughterboard to allow the repalcement of the original NMOS 6502 in the Commodore VIC-20 with a modern CMOS W65C02S from WDC.
 
+## YouTube Video
+[Simple KiCad For Simple Vintage Computer Hobbyists: Part 6 (VIC-20 6502 Replacement)](https://youtu.be/deTViI5Wltk)
+
 ## Purpose
 - Save having to source replacement 6502 chip in case CPU is faulty,
 - Reduce power consumption & waste heat generation by using a CMOS variant,
