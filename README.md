@@ -27,5 +27,8 @@ My attempt to replace the VIC's built in 5KB of RAM (ten 2114 chips) with a sing
 ![3D view of RAM upgrade board](/Internal_8KB/Images/VIC-20_BLK0_RAM_Expansion.png)
 
 ## [6502 to 65C02S Daughterboard](/6502-to-65C02/)
-Unlike the 6522 VIAs that can be directly swapped for modern CMOS 65C22s from WDC, the 65C02S can't be directly swapped - a daughterboard is required to buffer the data bus signals and also handle some other pins.
+Unlike the 6522 VIAs that can be directly swapped for modern CMOS 65C22s from WDC, the 65C02S can't be directly swapped - a daughterboard is required to buffer the data bus signals and also handle some other signals/pins that differ.
+
+![3D view of 65C02S daughterboard](/6502-to-65C02/Images/6502-to-65C02S_3D.png)
+
 
