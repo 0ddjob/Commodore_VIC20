@@ -4767,22 +4767,22 @@
 	)
 	(global_label "R{slash}W"
 		(shape input)
-		(at 133.35 58.42 180)
+		(at 158.75 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "55f9f872-60dd-425a-b331-c97276830920")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.3129 58.42 0)
+			(at 165.7871 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4943,22 +4943,22 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 133.35 60.96 180)
+		(at 158.75 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "82fdd0a6-2561-4865-a7a6-77284ed31490")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.4943 60.96 0)
+			(at 165.6057 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5756,15 +5756,15 @@
 	(symbol
 		(lib_id "74xx:74LS245")
 		(at 146.05 48.26 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "985cb374-c9bf-49bf-a857-155467f1d810")
 		(property "Reference" "UE102"
-			(at 148.1933 27.94 0)
+			(at 143.9067 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +5773,7 @@
 			)
 		)
 		(property "Value" "74HCT245"
-			(at 148.1933 30.48 0)
+			(at 143.9067 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
