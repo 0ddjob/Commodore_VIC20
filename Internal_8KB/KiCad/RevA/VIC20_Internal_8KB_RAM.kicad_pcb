@@ -4599,7 +4599,7 @@
 		(layer "Edge.Cuts")
 		(uuid "a13c7280-73ff-44d9-a4c7-8ceaad936ed8")
 	)
-	(gr_text "Internal BLK0 RAM Expansion"
+	(gr_text "Internal BLK0 RAM Expansion ©2025"
 		(at 50.48 90.12 0)
 		(layer "F.SilkS")
 		(uuid "ca35fc33-e992-4bab-935c-d28a1c570bb7")
