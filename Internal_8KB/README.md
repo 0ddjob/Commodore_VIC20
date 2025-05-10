@@ -59,7 +59,7 @@ Some wires need to be connected from the board to a [few other places](/Internal
 - VA12 from UC4 (74LS138) pin 3
 - VA13 from UC4 (74LS138) pin 6
 - BLK0 from UC4 (74LS138) pin 4
-- 2 (Phi2) from UC3 (74S02) pin 3
+- Φ2 (Phi2) from UC3 (74S02) pin 3
 
 ## BOM
 - 6264 SRAM
@@ -72,5 +72,5 @@ Some wires need to be connected from the board to a [few other places](/Internal
 - 2-way pin header (for 3KB expansion disable/enable)
 
 ## Status
-25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication
+25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication<br>
 10-May-2025: Test PCB built & being tested
