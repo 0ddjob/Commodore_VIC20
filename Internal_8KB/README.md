@@ -47,7 +47,7 @@ Additionally, we want to be able to disable the full 8KB and return the VIC to i
 
 In its unexpanded state we should ignore all other combinations of A10 to A12.
 
-I used [grok](/Internal_8KB/grok.md) to help with designing the chip select logic for the 6264, and the implementation code for a [GAL](/Internal_8KB/blk0_exp.cupl).<br>
+I used [grok](/Internal_8KB/grok.md) to help with designing the chip select logic for the 6264, and the implementation code for a [GAL](/Internal_8KB/GAL/blk0_exp.pld).<br>
 
 The daughterboard is designed to plug in to the VIC's motherboard where two of the original 2114 chips were located - expectation is that all ten 2114 chips are removed, and two replaced with an IC socket.
 
