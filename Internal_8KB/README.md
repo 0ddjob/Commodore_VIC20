@@ -64,7 +64,7 @@ Some wires need to be connected from the board to a [few other places](/Internal
 ## BOM
 - 6264 SRAM
 - GAL16V8 (i.e. Atmel F16V8B)
-- 10K pull-up resistor
+- 10KΩ pull-up resistor
 - 2 x 100nF decoupling capacitor
 - 2 x 18-pin DIP sockets
 - 4 x 9-pin SIL two-way pin headers (to plug into DIP sockets)
