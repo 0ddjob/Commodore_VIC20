@@ -53,7 +53,14 @@ The daughterboard is designed to plug in to the VIC's motherboard where two of t
 
 The board itself is quite simple, using just the 6264 RAM chip and a GAL chip for the chip select logic.<br>
 
-Some wires need to be connected from the board to a few other places on the VIC's board to pick up required signals.<br>
+Some wires need to be connected from the board to a [few other places](/Internal_8KB/Images/VIC-20_internal_RAM_layout.png) on the VIC's board to pick up required signals:<br>
+- VA10 from UC4 (74LS138) pin 1
+- VA11 from UC4 (74LS138) pin 2
+- VA12 from UC4 (74LS138) pin 3
+- VA13 from UC4 (74LS138) pin 6
+- BLK0 from UC4 (74LS138) pin 4
+- 2 (Phi2) from UC3 (74S02) pin 3
 
 ## Status
 25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication
+10-May-2025: Test PCB built & being tested

@@ -1,5 +1,5 @@
 GAL16V8  ;
-VIC20RAM ;
+VIC20RAM ; Brett Hallen, May 2025
 
 ; Pin definitions
 ;   1st line: Pins 1 - 10
@@ -17,6 +17,9 @@ NC  NC    RAM1  RAM2  CS1   CS2   OE  NC  NC    VCC
 ; Pin  7 = RW    R/W input from 2114
 ; Pin  8 = SW    Switch to enable 3KB expansion or not
 ; Pin  9 = Phi2  UC3 (74S02) pin 3, from 6502 pin 39
+; Intermediate outputs
+; Pin 13 = RAM1
+; Pin 14 = RAM2
 ; Outputs
 ; Pin 15 = CS    active low, CS1
 ; Pin 16 = !CS   active high, CS2
