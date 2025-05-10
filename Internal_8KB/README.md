@@ -4,6 +4,7 @@ My attempt to create a simple internal RAM upgrade board for the VIC-20.
 ## Purpose
 - Save having to source replacement 2114 chips in case RAM is faulty,
 - Upgrade the internal RAM from 5KB to 8KB, filling BLK0,
+- Reduce power consumption/waste heat generation,
 - Use as a learning experience to understand how the VIC's memory works and using a PLD.
 
 ## YouTube Video
