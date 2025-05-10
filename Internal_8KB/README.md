@@ -62,5 +62,5 @@ Some wires need to be connected from the board to a [few other places](/Internal
 - Φ2 (Phi2) from UC3 (74S02) pin 3
 
 ## Status
-25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication
+25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication<br>
 10-May-2025: Test PCB built & being tested
