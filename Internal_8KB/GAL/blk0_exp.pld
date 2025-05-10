@@ -1,0 +1,41 @@
+GAL16V8  ;
+VIC20RAM ;
+
+; Pin definitions
+;   1st line: Pins 1 - 10
+;   2nd line: Pins 11 - 20
+
+NC  VA10  VA11  VA12  VA13  BLK0  RW  SW  Phi2  GND
+NC  NC    RAM1  RAM2  CS1   CS2   OE  NC  NC    VCC
+
+; Inputs
+; Pin  2 = VA10  UC4 (74LS138) pin 1
+; Pin  3 = VA11  UC4 (74LS138) pin 2
+; Pin  4 = VA12  UC3 (74LS138) pin 3
+; Pin  5 = VA13  UC4 (74LS138) pin 6
+; Pin  6 = BLK0  UC4 (74LS138) pin 4
+; Pin  7 = RW    R/W input from 2114
+; Pin  8 = SW    Switch to enable 3KB expansion or not
+; Pin  9 = Phi2  UC3 (74S02) pin 3, from 6502 pin 39
+; Outputs
+; Pin 15 = CS    active low, CS1
+; Pin 16 = !CS   active high, CS2
+; Pin 17 = OE    output enable
+
+; 3KB EXPANSION CARTRIDGE
+; 0400-07FF   0000 0100 0000 0000 !RAM1  (A10)
+;             0000 0111 1111 1111
+; 0800-0BFF   0000 1000 0000 0000 !RAM2  (A11)
+;             0000 1011 1111 1111
+; 0C00-0FFF   0000 1100 0000 0000 !RAM3  (A10+A11)
+;             0000 1111 1111 1111
+
+; Logic equations
+RAM1 = /SW * /VA12 * VA10
+RAM2 = /SW * /VA12 * VA11
+CS1  = /VA13 + BLK0 + RAM1 + RAM2
+CS2  = /CS1
+OE   = /RW + /Phi2
+
+DESCRIPTION
+RAM_CS for VIC-20 internal RAM expansion
