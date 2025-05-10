@@ -4,7 +4,7 @@ My attempt to create a simple internal RAM upgrade board for the VIC-20.
 ## Purpose
 - Save having to source replacement 2114 chips in case RAM is faulty,
 - Upgrade the internal RAM from 5KB to 8KB, filling BLK0,
-- Use as a learning experience to understand how the VIC's memory works and using a GAL.
+- Use as a learning experience to understand how the VIC's memory works and using a PLD.
 
 ## YouTube Video
 [Simple KiCad For Simple Vintage Computer Hobbyists: Part 5 (VIC-20 RAM Expansion)](https://youtu.be/WQpgBGNAkP0)
@@ -47,11 +47,11 @@ Additionally, we want to be able to disable the full 8KB and return the VIC to i
 
 In its unexpanded state we should ignore all other combinations of A10 to A12.
 
-I used [grok](/Internal_8KB/grok.md) to help with designing the chip select logic for the 6264, and the implementation code for a [GAL](/Internal_8KB/GAL/blk0_exp.pld).<br>
+I used [grok](/Internal_8KB/grok.md) to help with designing the chip select logic for the 6264, and the implementation code for a [PLD](/Internal_8KB/PLD/blk0_exp.pld).<br>
 
 The daughterboard is designed to plug in to the VIC's motherboard where two of the original 2114 chips were located - expectation is that all ten 2114 chips are removed, and two replaced with an IC socket.
 
-The board itself is quite simple, using just the 6264 RAM chip and a GAL chip for the chip select logic.<br>
+The board itself is quite simple, using just the 6264 RAM chip and a PLD chip for the chip select logic.<br>
 
 Some wires need to be connected from the board to a [few other places](/Internal_8KB/Images/VIC-20_internal_RAM_layout.png) on the VIC's board to pick up required signals:<br>
 - VA10 from UC4 (74LS138) pin 1
@@ -60,6 +60,16 @@ Some wires need to be connected from the board to a [few other places](/Internal
 - VA13 from UC4 (74LS138) pin 6
 - BLK0 from UC4 (74LS138) pin 4
 - 2 (Phi2) from UC3 (74S02) pin 3
+
+## BOM
+- 6264 SRAM
+- GAL16V8 (i.e. Atmel F16V8B)
+- 10K pull-up resistor
+- 2 x 100nF decoupling capacitor
+- 2 x 18-pin DIP sockets
+- 4 x 9-pin SIL two-way pin headers (to plug into DIP sockets)
+- 6-way pin header (for extra required signals)
+- 2-way pin header (for 3KB expansion disable/enable)
 
 ## Status
 25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication
