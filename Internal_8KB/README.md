@@ -2,8 +2,9 @@
 My attempt to create a simple internal RAM upgrade board for the VIC-20.
 
 ## Purpose
-- Save having to source replacement 2114 chips in case RAM is faulty,
-- Upgrade the internal RAM from 5KB to 8KB, filling BLK0,
+- Save having to source replacement 2114 chips in case RAM is faulty;
+- Upgrade the internal RAM from 5KB to 8KB, filling BLK0;
+- Reduce power consumption/waste heat generation (reduced by 230mA);
 - Use as a learning experience to understand how the VIC's memory works and using a PLD.
 
 ## YouTube Video
@@ -47,8 +48,6 @@ Additionally, we want to be able to disable the full 8KB and return the VIC to i
 
 In its unexpanded state we should ignore all other combinations of A10 to A12.
 
-I used [grok](/Internal_8KB/grok.md) to help with designing the chip select logic for the 6264, and the implementation code for a [PLD](/Internal_8KB/PLD/blk0_exp.pld).<br>
-
 The daughterboard is designed to plug in to the VIC's motherboard where two of the original 2114 chips were located - expectation is that all ten 2114 chips are removed, and two replaced with an IC socket.
 
 The board itself is quite simple, using just the 6264 RAM chip and a PLD chip for the chip select logic.<br>
@@ -74,3 +73,4 @@ Some wires need to be connected from the board to a [few other places](/Internal
 ## Status
 25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication<br>
 10-May-2025: Test PCB built & being tested
+11-May-2025: IT WORKS!  But, some small revisions to the board are required ...
