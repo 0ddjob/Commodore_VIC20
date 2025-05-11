@@ -1,0 +1,10 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+106.29,-42.69,180.0,top,C1,,,C_Disc_D3.0mm_W2.0mm_P2.50mm,100nF,tht
+65.76,-47.12,0.0,top,C2,,,C_Disc_D3.0mm_W2.0mm_P2.50mm,100nF,tht
+80.04,-36.12,0.0,top,J1,,,DIP-18_W7.62mm,UD4,tht
+80.04,-66.12,0.0,top,J2,,,DIP-18_W7.62mm,UE4,tht
+58.04,-77.52,180.0,top,J3,,,PinHeader_1x02_P2.54mm_Vertical,SW,tht
+58.48,-50.82,0.0,top,J4,,,PinHeader_1x08_P2.54mm_Vertical,Signals,tht
+70.63,-78.12,180.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10KΩ,tht
+97.42,-47.61,0.0,top,U1,,,DIP-28_W15.24mm_Socket,6264,tht
+63.2,-51.8,0.0,top,U2,,,DIP-20_W7.62mm_Socket,GAL16V8,tht

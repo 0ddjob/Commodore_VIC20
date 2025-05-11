@@ -8,17 +8,17 @@
    4   | VA12     | Input
    5   | VA13     | Input
    6   | BLK0     | Input
-   7   | RW       | Input
-   8   | SW       | Input
-   9   | Phi2     | Input
+   7   | SW       | Input
+   8   | NC       | Input
+   9   | NC       | Input
   10   | GND      | GND
   11   | NC       | Input
   12   | NC       | NC
-  13   | RAM1     | Output
+  13   | RAM3     | Output
   14   | RAM2     | Output
-  15   | CS1      | Output
-  16   | CS2      | Output
-  17   | OE       | Output
+  15   | RAM1     | Output
+  16   | CS1      | Output
+  17   | CS2      | Output
   18   | NC       | NC
   19   | NC       | NC
   20   | VCC      | VCC

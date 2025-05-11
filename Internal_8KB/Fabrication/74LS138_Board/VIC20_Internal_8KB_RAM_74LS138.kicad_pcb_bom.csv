@@ -1,0 +1,3 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,Signals,PinHeader_1x08_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+UC4,1,74LS138,DIP-16_W7.62mm,,,,tht,"Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
