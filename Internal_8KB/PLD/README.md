@@ -12,7 +12,7 @@ Programmer used: Wellon VP598 EPROM programmer
 - blk0_exp.pin: List of pin numbers, name and type
 
 ## Logic
-The logic defined in the PLD file is:
+The logic defined in the PLD file is (* = AND):
 ```
 /RAM1 = SW * VA10 * /VA11 * /VA12 * VA13 * /BLK0
 /RAM2 = SW * /VA10 * VA11 * /VA12 * VA13 * /BLK0
