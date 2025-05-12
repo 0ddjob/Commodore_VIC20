@@ -1,5 +1,6 @@
 # PLD Stuff
 PLD used: Atmel F18V8B<br>
+Assembler used: [GALasm](https://github.com/daveho/GALasm)<br>
 Programmer used: Wellon VP598 EPROM programmer
 
 - blk0_exp.pld: The PLD design file
