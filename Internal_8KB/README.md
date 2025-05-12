@@ -3,12 +3,13 @@ My attempt to create a simple internal RAM upgrade board for the VIC-20.
 
 ## Purpose
 - Save having to source replacement 2114 chips in case RAM is faulty;
-- Upgrade the internal RAM from 5KB to 8KB, filling BLK0;
-- Reduce power consumption/waste heat generation (reduced by 230mA);
+- Upgrade the internal RAM from 5KB to 8KB, filling BLK0, but make it switchable ON/OFF from outside the case;
+- Reduce power consumption/waste heat generation (reduced by just over 200mA, almost 20%);
 - Use as a learning experience to understand how the VIC's memory works and using a PLD.
 
-## YouTube Video
-[Simple KiCad For Simple Vintage Computer Hobbyists: Part 5 (VIC-20 RAM Expansion)](https://youtu.be/WQpgBGNAkP0)
+## YouTube Videos
+- [Simple KiCad For Simple Vintage Computer Hobbyists: Part 5 (VIC-20 RAM Expansion)](https://youtu.be/WQpgBGNAkP0)
+- [Commodore VIC-20 Internal RAM Replacement: Part 1](https://youtu.be/0KduuzFBmz8)
 
 ## Design
 This is the layout of the VIC's BLK0 (first 8KB chunk of memory):
