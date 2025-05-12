@@ -73,6 +73,8 @@ Some wires need to be connected from the RAM board to where the [RAM decoder](/I
 - /RAM2 to UC4 pin 13
 - /RAM3 to UC4 pin 14
 
+Note that all of these are connected using the additonal 74LS138 daughterboard.  Simply plug an 8-way cable set into the pin headers on the RAM and 74LS138 boards and the connections are done!<br>
+
 ## BOM
 - 6264 SRAM
 - GAL16V8 (i.e. Atmel F16V8B)
