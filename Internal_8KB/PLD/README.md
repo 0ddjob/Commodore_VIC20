@@ -21,8 +21,8 @@ The logic defined in the PLD file is (* = AND):
 CS2 = VA13 * /BLK0
 ```
 
-The 6264 RAM chip has an active low /CS1 and active high CS2. The VA13 and /BLK0 signals are used to enable the 74LS138 RAM decoder in the VIC, so we re-use the same signals to enable our RAM.  The 6264's /OE follows the /CS1 and are tied on the 6264 itself.<br>
+The 6264 RAM chip has an active low /CS1 and active high CS2. The VA13 and /BLK0 signals are used to enable the 74LS138 RAM decoder in the VIC, so we re-use the same signals to enable our RAM.  The 6264's /OE follows the /CS1 and is tied on the 6264 itself.<br>
 
-The RAM data bus (BD0..BD7) in the VIC is connected to the CPU data bus (CD0..CD7) via a 74LS245 transceiver. When /RAM1, /RAM2 or /RAM3 are asserted (via a 74LS133 NAND, output is high) the inputs on 74LS245 transceiver are disabled which isolates the RAM data bus from the CPU data bus.<br>
+The RAM data bus (BD0..BD7) in the VIC is connected to the CPU data bus (CD0..CD7) via a 74LS245 transceiver. When /RAM1, /RAM2 or /RAM3 are asserted (via a 74LS133 NAND, resulting in high output) the inputs on 74LS245 transceiver are disabled (active low) which isolates the RAM data bus from the CPU data bus.  Thus our extra 3KB of RAM is isolated as the VIC assumes it would be on the cartridge which uses the CD0..CD7 bus.<br>
 
 If we want the additional 3KB RAM expansion to work (when enabled via the switch) then we want to de-assert the /RAM1 to /RAM3 signals to the 74LS133 which, in turn, ensures our RAM data bus remains connected to the CPU data bus.<br>
