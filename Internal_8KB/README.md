@@ -1,5 +1,5 @@
 # Internal 8KB RAM Expansion
-My attempt to create a simple internal RAM upgrade board for the VIC-20.
+My attempt to create a simple internal RAM upgrade board for the original VIC-20 (two-prong power, not the CR).
 
 ## Purpose
 - Save having to source replacement 2114 chips in case RAM is faulty;
