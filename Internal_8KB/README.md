@@ -14,6 +14,10 @@ NOTE: This is currently ... 12-May-2025 ... still a work-in-progress.  The desig
 - [Simple KiCad For Simple Vintage Computer Hobbyists: Part 5 (VIC-20 RAM Expansion)](https://youtu.be/WQpgBGNAkP0)
 - [Commodore VIC-20 Internal RAM Replacement: Part 1](https://youtu.be/0KduuzFBmz8)
 
+## Important Note
+This information is provided to you completely free - use at your own risk.<br>
+It is assumed that you kind-of know what you're doing - it is tricky removing chips from the VIC-20 motherboard as the top-layer tracks can lift up if there is still solder attached, so pleae be very careful.  I've been using the Japanese-made ENGINEER SS-03 solder sucker a lot lately and highly recommend it.<br>
+
 ## Design
 This is the layout of the VIC's BLK0 (first 8KB chunk of memory):
 ```
