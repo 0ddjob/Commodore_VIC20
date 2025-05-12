@@ -83,4 +83,4 @@ Some wires need to be connected from the RAM board to where the [RAM decoder](/I
 25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication<br>
 10-May-2025: Test PCB built & being tested<br>
 11-May-2025: IT WORKS!  But, some small revisions to the board are required ...<br>
-12-May-2025: Revisions to board made, new 74LS138 daughterboard created, this README still needs to be updated<br>
+12-May-2025: Revisions to board made, new 74LS138 daughterboard created, might still tweak the design a little<br>
