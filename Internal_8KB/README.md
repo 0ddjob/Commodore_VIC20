@@ -7,7 +7,8 @@ NOTE: This is currently ... 12-May-2025 ... still a work-in-progress.  The desig
 - Save having to source replacement 2114 chips in case RAM is faulty;
 - Upgrade the internal RAM from 5KB to 8KB, filling BLK0, but make it switchable ON/OFF from outside the case;
 - Reduce power consumption/waste heat generation (reduced by just over 200mA, almost 20%);
-- Use as a learning experience to understand how the VIC's memory works and using a PLD.
+- Use as a learning experience to understand how the VIC's memory works and using a PLD;
+- 100% reversible, no cutting of tracks required.
 
 ## YouTube Videos
 - [Simple KiCad For Simple Vintage Computer Hobbyists: Part 5 (VIC-20 RAM Expansion)](https://youtu.be/WQpgBGNAkP0)
