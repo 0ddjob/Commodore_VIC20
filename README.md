@@ -21,10 +21,11 @@ I hope that it will allow me to see what signals the 6560 outputs natively, then
 
 BTW, yes I know there are boards out there that already do this.  I've not had much luck with the free or paid-for boards, so I want to ... TRY TO ... understand it myself.  Let's see ...
 
-## [Internal 8KB RAM Expansion](/Internal_8KB/) - UNTESTED
-My attempt to replace the VIC's built in 5KB of RAM (ten 2114 chips) with a single 8KB chip.
+## [Internal 8KB RAM Expansion](/Internal_8KB/) - TESTED
+My attempt to replace the VIC's built in 5KB of RAM (ten 2114 chips) with a single 8KB chip, with an extra 3KB RAM as a free bonus.
 
 ![3D view of RAM upgrade board](/Internal_8KB/Images/VIC-20_BLK0_RAM_Expansion.png)
+![3D view of 74LS138 board](/Internal_8KB/Images/VIC-20_BLK0_RAM_Expansion_74LS138.png)
 
 ## [6502 to W65C02S Daughterboard](/6502-to-65C02/) - UNTESTED
 Unlike the 6522 VIAs that can be directly swapped for modern CMOS 65C22s from WDC, the W65C02S can't be directly swapped - a daughterboard is required to buffer the data bus signals and also handle some other signals/pins that differ.
@@ -32,4 +33,4 @@ Unlike the 6522 VIAs that can be directly swapped for modern CMOS 65C22s from WD
 ![3D view of 65C02S daughterboard](/6502-to-65C02/Images/6502-to-65C02S_3D.png)
 
 ## [Internal Super Expander](/Internal_Expander/) - WORK IN PROGRESS
-Adding further functionality to my Internal 8KB RAM Expansion, adding the Super Expander ROM as well.
+Adding further functionality to my Internal 8KB RAM Expansion, adding the Super Expander ROM as well.  Maybe.  Worth the effort?
