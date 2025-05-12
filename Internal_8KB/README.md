@@ -1,5 +1,5 @@
 # Internal 8KB RAM Expansion
-My attempt to create a simple internal RAM upgrade board for the original VIC-20 (two-prong power, not the CR).<br>
+My attempt to create a simple internal RAM upgrade board for the original VIC-20 (two-prong power, not the CR).  And, I'm not touching the single 2114 used for the colour RAM.<br>
 
 NOTE: This is currently ... 12-May-2025 ... still a work-in-progress.  The design works, but I'm still tweaking it!
 
@@ -55,23 +55,29 @@ The daughterboard is designed to plug in to the VIC's motherboard where two of t
 
 The board itself is quite simple, using just the 6264 RAM chip and a PLD chip for the chip select logic.<br>
 
-Some wires need to be connected from the board to a [few other places](/Internal_8KB/Images/VIC-20_internal_RAM_layout.png) on the VIC's board to pick up required signals:<br>
-- VA10 from UC4 (74LS138) pin 1
-- VA11 from UC4 (74LS138) pin 2
-- VA12 from UC4 (74LS138) pin 3
-- VA13 from UC4 (74LS138) pin 6
-- BLK0 from UC4 (74LS138) pin 4
-- Φ2 (Phi2) from UC3 (74S02) pin 3
+In order for the additional 3KB expansion to work we need to remove the 74LS138 RAM decoder (UC4 on my board) - its logic will be replaced by that in the PLD.<br>
+
+Some wires need to be connected from the RAM board to where the [RAM decoder](/Internal_8KB/Images/VIC-20_internal_RAM_layout.png) was to pick up required signals:<br>
+- VA10 from UC4 pin 1
+- VA11 from UC4 pin 2
+- VA12 from UC4 pin 3
+- VA13 from UC4 pin 6
+- /BLK0 from UC4 pin 4
+- /RAM1 to UC4 pin 12
+- /RAM2 to UC4 pin 13
+- /RAM3 to UC4 pin 14
 
 ## BOM
 - 6264 SRAM
 - GAL16V8 (i.e. Atmel F16V8B)
 - 10KΩ pull-up resistor
 - 2 x 100nF decoupling capacitor
-- 2 x 18-pin DIP sockets
+- 2 x 18-pin DIP sockets (for UD4 & UE4 RAM locations)
 - 4 x 9-pin SIL two-way pin headers (to plug into DIP sockets)
-- 6-way pin header (for extra required signals)
+- 2 x 8-way pin header (for extra required signals)
 - 2-way pin header (for 3KB expansion disable/enable)
+- 1 x 16-pin DIP socket (for UC4 RAM decoder location)
+- 8-way Dupont connector wiring
 
 ## Status
 25-Apr-2025: Initial design done, checking-over before sending to PCBWAY for fabrication<br>
