@@ -92,3 +92,4 @@ Note that all of these are connected using the additonal 74LS138 daughterboard. 
 10-May-2025: Test PCB built & being tested<br>
 11-May-2025: IT WORKS!  But, some small revisions to the board are required ...<br>
 12-May-2025: Revisions to board made, new 74LS138 daughterboard created, might still tweak the design a little<br>
+13-May-2025: I've decided to go all the way and switch to a 32KB expansion, still switchable from outside the case.<br>
