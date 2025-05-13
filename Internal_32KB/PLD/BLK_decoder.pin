@@ -1,0 +1,25 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | NC       | Input
+   2   | CA13     | Input
+   3   | CA14     | Input
+   4   | CA15     | Input
+   5   | S02      | Input
+   6   | SW       | Input
+   7   | NC       | Input
+   8   | NC       | Input
+   9   | NC       | Input
+  10   | GND      | GND
+  11   | NC       | Input
+  12   | BLK7     | Output
+  13   | BLK6     | Output
+  14   | BLK5     | Output
+  15   | BLK4     | Output
+  16   | BLK3     | Output
+  17   | BLK2     | Output
+  18   | BLK1     | Output
+  19   | BLK0     | Output
+  20   | VCC      | VCC
+

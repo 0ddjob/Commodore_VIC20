@@ -1,0 +1,58 @@
+GAL16V8  ;
+BLKDECD  ; Brett Hallen, May 2025
+
+; Pin definitions
+;   1st line: Pins  1 - 10
+;   2nd line: Pins 11 - 20
+
+NC  CA13  CA14  CA15  S02   SW    NC    NC    NC    GND
+NC  BLK7  BLK6  BLK5  BLK4  BLK3  BLK2  BLK1  BLK0  VCC
+
+; Replaces 74LS138 used for BLK selection
+; Inputs
+; Pin  2 = CA13 (Input A), from pin 1
+; Pin  3 = CA14 (Input B), from pin 2
+; Pin  4 = CA15 (Input C), from pin 3
+; Pin  5 = S02  (Enable G1), from pin 6
+; Pin  6 = SW   Switch to enable BLK1/2/3 expansion or not
+; Outputs (active low)
+; Pin 12 = BLK0  to pin 15
+; Pin 12 = BLK1  to pin 14
+; Pin 12 = BLK2  to pin 13
+; Pin 12 = BLK3  to pin 12
+; Pin 12 = BLK4  to pin 11
+; Pin 12 = BLK5  to pin 10
+; Pin 12 = BLK6  to pin  9
+; Pin 12 = BLK7  to pin  7
+
+; BLK0
+; 0000    0000 0000 0000 0000 A10-A12 = 0
+; 1FFF    0001 1111 1111 1111 A10+A11+A12
+
+; BLK1
+; 2000		0010 0000 0000 0000      A13
+; 3FFF		0011 1111 1111 1111  A12/A13
+
+; BLK2
+; 4000    0100 0000 0000 0000      A14
+; 5FFF    0101 1111 1111 1111  A12/A14
+;
+; BLK3
+; 6000    0110 0000 0000 0000      A13/A14
+; 7FFF    0111 1111 1111 1111	 A12/A13/A14
+
+; Logic equations
+; / = NOT
+; + = OR
+; * = AND
+/BLK0 = /CA13 * /CA14 * /CA15 * S02
+/BLK1 =  CA13 * /CA14 * /CA15 * S02 * SW
+/BLK2 = /CA13 *  CA14 * /CA15 * S02 * SW
+/BLK3 =  CA13 *  CA14 * /CA15 * S02 * SW
+/BLK4 = /CA13 * /CA14 *  CA15 * S02
+/BLK5 =  CA13 * /CA14 *  CA15 * S02
+/BLK6 = /CA13 *  CA14 *  CA15 * S02
+/BLK7 =  CA13 *  CA14 *  CA15 * S02
+
+DESCRIPTION
+BLK selection logic

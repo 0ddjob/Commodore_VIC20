@@ -1,0 +1,63 @@
+GAL16V8  ;
+RAMDECD  ; Brett Hallen, May 2025
+
+; Pin definitions
+;   1st line: Pins  1 - 10
+;   2nd line: Pins 11 - 20
+
+NC  VA10  VA11  VA12  VA13  BLK0  SW   NC    NC  GND
+NC  NC    RAM3  RAM2  RAM1  CS1   CS2  NC    NC  VCC
+
+; Replaces 74LS138 used for RAM selection
+; Inputs
+; Pin  2 = VA10 (Input A), from pin 1
+; Pin  3 = VA11 (Input A), from pin 2
+; Pin  4 = VA12 (Input A), from pin 3
+; Pin  5 = VA13 (Enable G1), from pin 6
+; Pin  6 = BLK0 (Enable G2A), from pin 4
+; Pin  7 = SW   Switch to enable 3KB expansion or not
+; Outputs
+; Pin 13 = RAM1 to pin 14
+; Pin 14 = RAM2 to pin 13
+; Pin 15 = RAM3 to pin 12
+; Pin 16 = CS   (CS1 & OE, active low), to 6264 pin 20 & 22
+; Pin 17 = !CS  (CS2, active high), to 6264 pin 26
+
+; Commodore VIC-20 BLK0
+; 1KB LOW (Zero Page)
+; 0000-03FF   0000 0000 0000 0000 A10-A12 = 0
+;             0000 0011 1111 1111
+; 
+; 3KB EXPANSION CARTRIDGE
+; 0400-07FF   0000 0100 0000 0000 !RAM1  (A10)
+;             0000 0111 1111 1111
+; 0800-0BFF   0000 1000 0000 0000 !RAM2  (A11)
+;             0000 1011 1111 1111
+; 0C00-0FFF   0000 1100 0000 0000 !RAM3  (A10+A11)
+;             0000 1111 1111 1111
+; 
+; 4KB MAIN
+; 1000-1FFF   0001 0000 0000 0000 A12
+;             0001 0011 1111 1111 
+;             
+;             0001 0100 0000 0000 A10+A12
+;             0001 0111 1111 1111
+;             
+;             0001 1000 0000 0000 A11+A12
+;             0001 1011 1111 1111
+;             
+;             0001 1100 0000 0000 A10+A11+A12
+;             0001 1111 1111 1111
+
+; Logic equations
+; / = NOT
+; + = OR
+; * = AND
+/RAM1 =  VA10 * /VA11 * /VA12 * VA13 * /BLK0 * /SW
+/RAM2 = /VA10 *  VA11 * /VA12 * VA13 * /BLK0 * /SW
+/RAM3 =  VA10 *  VA11 * /VA12 * VA13 * /BLK0 * /SW
+/CS1  =  VA13 * /BLK0 
+CS2   =  VA13 * /BLK0
+
+DESCRIPTION
+Internal RAM select decoder logic for VIC-20 internal RAM expansion
