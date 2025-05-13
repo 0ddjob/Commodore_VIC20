@@ -8,7 +8,7 @@ NOTE: This is currently ... 12-May-2025 ... still a work-in-progress.  The desig
 - Upgrade the internal RAM from 5KB to 8KB, filling BLK0, but make it switchable ON/OFF from outside the case;
 - Reduce power consumption/waste heat generation (reduced by just over 200mA, almost 20%);
 - Use as a learning experience to understand how the VIC's memory works and using a PLD;
-- 100% reversible, no cutting of tracks required.
+- 100% reversible, no cutting of tracks or soldering of wires to chip legs required.
 
 ## YouTube Videos
 - [Simple KiCad For Simple Vintage Computer Hobbyists: Part 5 (VIC-20 RAM Expansion)](https://youtu.be/WQpgBGNAkP0)
@@ -73,6 +73,8 @@ Some wires need to be connected from the RAM board to where the [RAM decoder](/I
 - /RAM2 to UC4 pin 13
 - /RAM3 to UC4 pin 14
 
+Note that all of these are connected using the additonal 74LS138 daughterboard.  Simply plug an 8-way cable set into the pin headers on the RAM and 74LS138 boards and the connections are done!<br>
+
 ## BOM
 - 6264 SRAM
 - GAL16V8 (i.e. Atmel F16V8B)
@@ -90,3 +92,4 @@ Some wires need to be connected from the RAM board to where the [RAM decoder](/I
 10-May-2025: Test PCB built & being tested<br>
 11-May-2025: IT WORKS!  But, some small revisions to the board are required ...<br>
 12-May-2025: Revisions to board made, new 74LS138 daughterboard created, might still tweak the design a little<br>
+13-May-2025: I've decided to go all the way and switch to a 32KB expansion, still switchable from outside the case.<br>
