@@ -1,0 +1,12 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+C1,1,10µF,CP_Radial_D5.0mm_P2.50mm,,,,tht,Polarized capacitor
+J1,1,UD4,DIP-18_W7.62mm,,,,tht,"Generic connector, double row, 02x09, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2,1,UE4,DIP-18_W7.62mm,,,,tht,"Generic connector, double row, 02x09, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J3,1,Switch,PinHeader_1x03_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J4,1,RAM Decode,PinHeader_1x08_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J5,1,BLK Inputs,PinHeader_1x04_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J6,1,BLK Outputs,PinHeader_1x08_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"R1, R2",2,10KΩ,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor
+U1,1,62256,DIP-28_W15.24mm,,,,tht,"32,768-word × 8-bit High Speed CMOS Static RAM, 70ns, DIP-28"
+U2,1,RAM Decoder,DIP-20_W7.62mm,,,,tht,"Programmable Logic Array, DIP-20/SOIC-20/PLCC-20"
+U3,1,BLK Decoder,DIP-20_W7.62mm,,,,tht,"Programmable Logic Array, DIP-20/SOIC-20/PLCC-20"

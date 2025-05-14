@@ -1,0 +1,13 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+84.04,-61.62,90.0,top,C1,,,CP_Radial_D5.0mm_P2.50mm,10µF,tht
+80.04,-35.12,0.0,top,J1,,,DIP-18_W7.62mm,UD4,tht
+80.04,-66.12,0.0,top,J2,,,DIP-18_W7.62mm,UE4,tht
+98.94,-33.12,90.0,top,J3,,,PinHeader_1x03_P2.54mm_Vertical,Switch,tht
+53.02,-31.8,90.0,top,J4,,,PinHeader_1x08_P2.54mm_Vertical,RAM Decode,tht
+53.02,-66.52,90.0,top,J5,,,PinHeader_1x04_P2.54mm_Vertical,BLK Inputs,tht
+53.02,-50.52,90.0,top,J6,,,PinHeader_1x08_P2.54mm_Vertical,BLK Outputs,tht
+94.48,-40.52,90.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10KΩ,tht
+108.48,-40.52,90.0,top,R2,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10KΩ,tht
+93.66,-44.5,0.0,top,U1,,,DIP-28_W15.24mm,62256,tht
+50.48,-44.5,90.0,top,U2,,,DIP-20_W7.62mm,RAM Decoder,tht
+50.48,-62.28,90.0,top,U3,,,DIP-20_W7.62mm,BLK Decoder,tht
