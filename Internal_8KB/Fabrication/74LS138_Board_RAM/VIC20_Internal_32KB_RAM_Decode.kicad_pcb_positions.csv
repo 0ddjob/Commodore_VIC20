@@ -1,0 +1,3 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+76.261842,-52.1,0.0,top,J1,,,PinHeader_1x08_P2.54mm_Vertical,Signals,tht
+72.38,-52.1,0.0,top,UC4,,,DIP-16_W7.62mm,74LS138,tht

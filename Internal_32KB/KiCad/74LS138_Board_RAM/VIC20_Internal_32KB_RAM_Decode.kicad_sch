@@ -5,8 +5,8 @@
 	(uuid "0cfd61e4-09c5-4cea-9ce7-1606cc895e7f")
 	(paper "A5")
 	(title_block
-		(title "Commodore VIC-20 BLK0 RAM Expansion, Daughterboard")
-		(date "12-May-2025")
+		(title "Commodore VIC-20 32KB RAM Expansion,RAM Deocder")
+		(date "14-May-2025")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 1 "www.youtube.com/@Brfff")
@@ -876,6 +876,26 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text_box "This board replaces the 74LS138 3-to-8 decoder used for the internal RAM chip select logic.\n\nThe logic will instead be implemented in a GAL on the main RAM board."
+		(exclude_from_sim no)
+		(at 22.86 21.59 0)
+		(size 58.42 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2f48f17b-3a70-4262-9b6e-5811a993b79e")
 	)
 	(no_connect
 		(at 99.06 67.31)

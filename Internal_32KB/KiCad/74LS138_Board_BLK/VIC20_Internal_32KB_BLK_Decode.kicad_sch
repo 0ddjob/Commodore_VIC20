@@ -5,8 +5,8 @@
 	(uuid "0cfd61e4-09c5-4cea-9ce7-1606cc895e7f")
 	(paper "A5")
 	(title_block
-		(title "Commodore VIC-20 32KB RAM Expansion, BLK Decode")
-		(date "13-May-2025")
+		(title "Commodore VIC-20 32KB RAM Expansion, BLK Decoder")
+		(date "14-May-2025")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 1 "www.youtube.com/@Brfff")
@@ -1077,6 +1077,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "This board replaces the 74LS138 3-to-8 decoder used for the BLK select logic.\n\nThe logic will instead be implemented in a GAL on the main RAM board."
+		(exclude_from_sim no)
+		(at 26.67 29.21 0)
+		(size 58.42 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c6fe91d7-2c87-4789-85a6-c9538356135e")
+	)
 	(no_connect
 		(at 99.06 54.61)
 		(uuid "658e7a94-cf9c-4911-9a09-90f11954e3bf")
@@ -1249,7 +1269,7 @@
 	)
 	(global_label "CA13"
 		(shape input)
-		(at 116.84 34.29 180)
+		(at 128.27 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1259,7 +1279,7 @@
 		)
 		(uuid "5cd9bd85-5323-4e24-af79-f7c93359b469")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0772 34.29 0)
+			(at 120.5072 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1291,7 @@
 	)
 	(global_label "SΦ2"
 		(shape input)
-		(at 116.84 41.91 180)
+		(at 128.27 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1281,7 +1301,7 @@
 		)
 		(uuid "5d647bbd-954c-4bb6-b854-df323936796c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 41.91 0)
+			(at 121.5353 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1445,7 @@
 	)
 	(global_label "CA14"
 		(shape input)
-		(at 116.84 36.83 180)
+		(at 128.27 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1435,7 +1455,7 @@
 		)
 		(uuid "9b15d6fc-8039-4ae3-83ed-dad8eb81c8a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0772 36.83 0)
+			(at 120.5072 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1621,7 @@
 	)
 	(global_label "CA15"
 		(shape input)
-		(at 116.84 39.37 180)
+		(at 128.27 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1611,7 +1631,7 @@
 		)
 		(uuid "efa3b719-9ded-4238-8944-b8723511b879")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0772 39.37 0)
+			(at 120.5072 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "211893d7-c16e-4188-ad7a-f8d46a012cca")
-		(property "Reference" "UC4"
+		(property "Reference" "UC5"
 			(at 92.71 48.26 0)
 			(effects
 				(font
@@ -1725,7 +1745,7 @@
 		(instances
 			(project ""
 				(path "/0cfd61e4-09c5-4cea-9ce7-1606cc895e7f"
-					(reference "UC4")
+					(reference "UC5")
 					(unit 1)
 				)
 			)
@@ -1733,7 +1753,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 121.92 36.83 0)
+		(at 133.35 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1742,7 +1762,7 @@
 		(fields_autoplaced yes)
 		(uuid "99bc4bff-2c13-4932-9fcf-400a45d58285")
 		(property "Reference" "J2"
-			(at 124.46 36.8299 0)
+			(at 135.89 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1771,7 @@
 			)
 		)
 		(property "Value" "BLK Inputs"
-			(at 124.46 39.3699 0)
+			(at 135.89 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1780,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 121.92 36.83 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 36.83 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1798,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 121.92 36.83 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

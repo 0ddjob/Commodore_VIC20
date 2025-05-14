@@ -25,7 +25,7 @@ BTW, yes I know there are boards out there that already do this.  I've not had m
 My attempt to replace the VIC's built in 5KB of RAM (ten 2114 chips) with a single 8KB chip, with an extra 3KB RAM as a free bonus.
 
 ![3D view of RAM upgrade board](/Internal_8KB/Images/VIC-20_BLK0_RAM_Expansion.png)
-![3D view of 74LS138 board](/Internal_8KB/Images/VIC-20_BLK0_RAM_Expansion_74LS138.png)
+![3D view of 74LS138 board](/Internal_32KB/Images/VIC-20_RAM_Decoder_74LS138.png)
 
 ## [Internal 32KB RAM Expansion](/Internal_32KB/) - DESIGNED
 Based on the working 8KB internal RAM expansion, adds also BLK1/2/3 expansion that can be switched on/off from outside the case.

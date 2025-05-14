@@ -63,7 +63,7 @@ The board itself is quite simple, using just the 6264 RAM chip and a PLD chip fo
 
 In order for the additional 3KB expansion to work we need to remove the 74LS138 RAM decoder (UC4 on my board) - its logic will be replaced by that in the PLD.<br>
 
-Some wires need to be connected from the RAM board to where the [RAM decoder](/Internal_8KB/Images/VIC-20_internal_RAM_layout.png) was to pick up required signals:<br>
+Some wires need to be connected from the RAM board to where the [RAM decoder](/Internal_8KB/Images/VIC-20_internal_RAM_layout.jpg) was to pick up required signals:<br>
 - VA10 from UC4 pin 1
 - VA11 from UC4 pin 2
 - VA12 from UC4 pin 3

@@ -716,6 +716,7 @@
 		(property "Reference" "UC4"
 			(at 0.62 -2.33 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a370f948-fd3f-44b0-a7f7-2b1cd47829f4")
 			(effects
 				(font
@@ -725,12 +726,12 @@
 			)
 		)
 		(property "Value" "74LS138"
-			(at 5.62 -2.33 0)
+			(at 6.582156 -2.333789 0)
 			(layer "F.SilkS")
 			(uuid "aa03631b-4d65-406a-b16f-28c988cb5534")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1112,8 +1113,21 @@
 		(layer "Edge.Cuts")
 		(uuid "c6fbc14f-9003-480c-9b2a-bdd5e4b8ddec")
 	)
-	(gr_text "VIC-20 Internal 32KB RAM\nBrett Hallen, May 2025"
-		(at 74.38 71.1 270)
+	(gr_text "BLK"
+		(at 71.38 50.284961 0)
+		(layer "F.SilkS")
+		(uuid "394a5967-c760-4e2e-b5a9-759f5d00feba")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VIC-20 BLK Decoder Logic Replacement\nBrett Hallen, May 2025"
+		(at 75.169921 71.15 270)
 		(layer "B.SilkS")
 		(uuid "8b84aa4d-6350-4f51-81a9-e6c26328c99b")
 		(effects
@@ -1309,20 +1323,20 @@
 		(uuid "fe521402-d43f-4bab-aa6b-e66345cfe6d9")
 	)
 	(segment
-		(start 72.38 64.8)
+		(start 74.6801 59.72)
 		(end 74.6801 62.4999)
 		(width 0.2)
-		(layer "F.Cu")
+		(layer "B.Cu")
 		(net 9)
-		(uuid "3ffe412a-fd6f-489b-a2b8-51c58952c34d")
+		(uuid "791a7ea3-4d1e-4699-844d-7ac59ae9086d")
 	)
 	(segment
 		(start 74.6801 62.4999)
-		(end 74.6801 59.72)
+		(end 72.38 64.8)
 		(width 0.2)
-		(layer "F.Cu")
+		(layer "B.Cu")
 		(net 9)
-		(uuid "b53a2df3-db0d-4582-bc21-63ce3ff99695")
+		(uuid "9f07a421-698a-4f7c-b37a-06690729aa91")
 	)
 	(segment
 		(start 72.38 54.64)
