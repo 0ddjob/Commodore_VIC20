@@ -6196,6 +6196,7 @@
 		(property "Value" "62256"
 			(at 7.62 16.51 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f0387961-1e68-42c0-a65f-4bb841f5966d")
 			(effects
 				(font
@@ -6786,8 +6787,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Brett Hallen, Apr 2025\nPort Macquarie, Australia\nwww.youtube.com/@Brfff"
-		(at 118.04 39.12 0)
+	(gr_text "32KB SRAM"
+		(at 102.04 66.12 90)
+		(layer "F.SilkS")
+		(uuid "d3973cf7-0ab0-4cd7-8575-fb2e4602d9af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Brett Hallen, May 2025\nPort Macquarie, Australia\nwww.youtube.com/@Brfff"
+		(at 78.04 87.12 0)
 		(layer "B.SilkS")
 		(uuid "ae509da1-0548-4709-9ef9-6fa2e0dee4a2")
 		(effects

@@ -160,8 +160,8 @@
 			(uuid "1bea4467-1fef-44f9-a941-58fc7e439c9e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -363,8 +363,8 @@
 			(uuid "bd00ee79-f2ea-4ab5-9891-a6b3bca8fc12")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -566,8 +566,8 @@
 			(uuid "a972fd93-7f1d-40d1-a817-d7f3c109c759")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -991,8 +991,8 @@
 			(uuid "94a296ce-94a7-4a98-b7bf-74db4fc5ca4b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2542,20 +2542,19 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Brett Hallen, Apr 2025\nPort Macquarie, Australia\nwww.youtube.com/@Brfff"
+	(gr_text "Brett Hallen\nPort Macquarie, Australia\nwww.youtube.com/@Brfff"
 		(at 116.8417 66.5473 0)
 		(layer "B.SilkS")
 		(uuid "f67b4be2-47a4-4780-b62c-84c6872b78ba")
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
+				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text_box "6502 to W65C02S For VIC-20\n© 2025"
+	(gr_text_box "6502 to W65C02S For VIC-20\n(May 2025)"
 		(start 67 59)
 		(end 85 67)
 		(margins 1.0025 1.0025 1.0025 1.0025)
@@ -2570,7 +2569,7 @@
 		)
 		(border no)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type solid)
 		)
 	)
