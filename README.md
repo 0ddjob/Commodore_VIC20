@@ -36,3 +36,10 @@ Based on the working 8KB internal RAM expansion, adds also BLK1/2/3 expansion th
 Unlike the 6522 VIAs that can be directly swapped for modern CMOS 65C22s from WDC, the W65C02S can't be directly swapped - a daughterboard is required to buffer the data bus signals and also handle some other signals/pins that differ.
 
 ![3D view of 65C02S daughterboard](/6502-to-65C02/Images/6502-to-65C02S_3D.png)
+
+## [Serial Port Breakout Board for Logic Analysers](/Serial_Breakout)
+I'm curious how JiffyDOS does its thing so whipped up a simple breakout board for the serial port so I can quickly and very easily connect up my logic analyser to capture the signalling with & without JiffyDOS.<br>
+
+Connect a DIN6 plug to one end to plug into the VIC, a DIN6 socket to the other for the disk drive, and then a 2x4 Dupont-style cable for the logic analyser.<br>
+
+![Serial breakout 3D](/Serial_Breakout/Serial_Breakout_3D.png)
