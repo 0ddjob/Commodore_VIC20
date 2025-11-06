@@ -1,0 +1,4 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,VIC_Serial,PinHeader_1x06_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2,1,Disk_Serial,PinHeader_1x06_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J3,1,Breakout,PinHeader_2x04_P2.54mm_Vertical,,,,tht,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
