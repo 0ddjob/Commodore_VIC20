@@ -1,0 +1,4 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Height,Manufacturer_Name
+J1,1,VIC Serial In,6710601,,671-0601,,tht,"Deltron 6 Pole Right Angle Din Socket Socket, 2A, 100 V ac, Lockable",19.5,DELTRON COMPONENTS
+J2,1,Disc Serial Out,6710601,,671-0601,,tht,"Deltron 6 Pole Right Angle Din Socket Socket, 2A, 100 V ac, Lockable",19.5,DELTRON COMPONENTS
+J3,1,Breakout,PinHeader_2x04_P2.54mm_Vertical,,,,tht,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,

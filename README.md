@@ -37,9 +37,9 @@ Unlike the 6522 VIAs that can be directly swapped for modern CMOS 65C22s from WD
 
 ![3D view of 65C02S daughterboard](/6502-to-65C02/Images/6502-to-65C02S_3D.png)
 
-## [Serial Port Breakout Board for Logic Analysers](/Serial_Breakout)
+## [Serial Port Breakout Board for Logic Analysers](/Serial_Breakout_2)
 I'm curious how JiffyDOS does its thing so whipped up a simple breakout board for the serial port so I can quickly and very easily connect up my logic analyser to capture the signalling with & without JiffyDOS.<br>
 
-Connect a DIN6 plug to one end to plug into the VIC, a DIN6 socket to the other for the disk drive, and then a 2x4 Dupont-style cable for the logic analyser.<br>
+Connect the board to the VIC & the disc drive with a DIN-6, and then a 2x4 Dupont-style cable for the logic analyser.<br>
 
-![Serial breakout 3D](/Serial_Breakout/Serial_Breakout_3D.png)
+![Serial breakout 3D](/Serial_Breakout_2/Serial_Breakout_DIN_3D.png)

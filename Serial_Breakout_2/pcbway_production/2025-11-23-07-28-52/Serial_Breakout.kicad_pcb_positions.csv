@@ -1,0 +1,4 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+52.58,-46.58,90.0,top,J1,671-0601,,6710601,VIC Serial In,tht
+82.98,-61.58,-90.0,top,J2,671-0601,,6710601,Disc Serial Out,tht
+71.66,-52.38,-90.0,top,J3,,,PinHeader_2x04_P2.54mm_Vertical,Breakout,tht
